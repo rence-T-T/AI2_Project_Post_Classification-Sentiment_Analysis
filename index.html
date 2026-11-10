@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solace - Student Feedback Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Solace</h1>
+    <p>Paste a batch of student posts. The system groups them by topic and shows the sentiment of each group.</p>
+  </header>
+
+  <main>
+    <section id="input-section">
+      <h2>1. Add your posts</h2>
+
+      <label for="post-input">Paste posts here</label>
+      <textarea id="post-input" rows="10"
+        placeholder="One post per line, or choose the separator option below"></textarea>
+
+      <div class="options">
+        <label>
+          <input type="radio" name="split-mode" value="line" checked>
+          One post per line
+        </label>
+        <label>
+          <input type="radio" name="split-mode" value="separator">
+          Posts are separated by a line containing only ---
+        </label>
+      </div>
+
+      <div class="options">
+        <label for="csv-file-input">Or load a CSV file (first column = posts)</label>
+        <input type="file" id="csv-file-input" accept=".csv,text/csv">
+        <label>
+          <input type="checkbox" id="csv-has-header-checkbox">
+          The CSV has a header row
+        </label>
+      </div>
+
+      <button id="analyze-button" disabled>Analyze</button>
+      <p id="status-message">Loading model...</p>
+    </section>
+
+    <section id="results-section" hidden>
+      <h2>2. Results</h2>
+      <p id="overall-summary"></p>
+      <div id="category-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="model-check-message"></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
