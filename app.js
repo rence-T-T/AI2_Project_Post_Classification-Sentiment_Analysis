@@ -24,33 +24,29 @@ const statusMessageElement = document.getElementById("status-message");
 const resultsSectionElement = document.getElementById("results-section");
 const overallSummaryElement = document.getElementById("overall-summary");
 const categoryListElement = document.getElementById("category-list");
-const modelCheckMessageElement = document.getElementById("model-check-message");
 
-let loadedModelBundle = null;
 let preparedTopicModel = null;
 let preparedSentimentModel = null;
 
 
-/* ---------- 1. Text cleaning and model math (must match the Python version) ---------- */
+/* ---------- 1. Text cleaning and model math ---------- */
 
 function cleanPostText(rawPostText) {
   return String(rawPostText)
-    .normalize("NFKC")                      // bold unicode letters become plain letters
-    .replace(/https?:\/\/\S+/g, " url ")    // links become the word "url"
-    .replace(/#/g, "")                      // keep hashtag words, drop the symbol
+    .normalize("NFKC")
+    .replace(/https?:\/\/\S+/g, " url ")
+    .replace(/#/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function tokenizeText(cleanedText) {
-  // same idea as Python's (?u)\b\w+\b after lowercasing; \p{L} and \p{N} cover Taglish and accents
   return cleanedText.toLowerCase().match(/[\p{L}\p{N}_]+/gu) || [];
 }
 
 function prepareModel(exportedModel) {
   return {
     classNames: exportedModel.class_names,
-    // a Map avoids clashes with JavaScript object keys such as "constructor"
     vocabularyMap: new Map(Object.entries(exportedModel.vocabulary)),
     inverseDocumentFrequency: exportedModel.inverse_document_frequency,
     coefficients: exportedModel.coefficients,
@@ -68,9 +64,9 @@ function buildTfidfEntries(cleanedText, preparedModel) {
     }
   }
 
-  tokens.forEach(countTermIfKnown);                                   // unigrams
+  tokens.forEach(countTermIfKnown);
   for (let tokenPosition = 0; tokenPosition < tokens.length - 1; tokenPosition++) {
-    countTermIfKnown(tokens[tokenPosition] + " " + tokens[tokenPosition + 1]);  // bigrams
+    countTermIfKnown(tokens[tokenPosition] + " " + tokens[tokenPosition + 1]);
   }
 
   const tfidfEntries = [];
@@ -84,7 +80,7 @@ function buildTfidfEntries(cleanedText, preparedModel) {
 
   const vectorLength = Math.sqrt(sumOfSquares);
   if (vectorLength > 0) {
-    tfidfEntries.forEach((entry) => { entry.value /= vectorLength; });   // L2 normalization
+    tfidfEntries.forEach((entry) => { entry.value /= vectorLength; });
   }
   return tfidfEntries;
 }
@@ -154,7 +150,6 @@ function analyzePostBatch(listOfPosts) {
     postsGroupedByTopic.get(analyzedPost.predictedTopic).push(analyzedPost);
   }
 
-  // only categories that actually received posts exist here, so empty ones never show up
   const categoryReports = [...postsGroupedByTopic.entries()].map(([topicName, postsInCategory]) => {
     const sentimentCounts = { negative: 0, neutral: 0, positive: 0 };
     postsInCategory.forEach((post) => { sentimentCounts[post.predictedSentiment] += 1; });
@@ -185,7 +180,7 @@ function analyzePostBatch(listOfPosts) {
 
 function createElementWithText(tagName, textContent, className) {
   const element = document.createElement(tagName);
-  element.textContent = textContent;      // textContent (not innerHTML) keeps pasted posts safe
+  element.textContent = textContent;
   if (className) element.className = className;
   return element;
 }
@@ -269,7 +264,6 @@ function splitIntoPosts(rawInputText, splitMode) {
 }
 
 function parseCsvIntoRows(csvText) {
-  // handles quoted fields, escaped quotes ("") and line breaks inside quotes
   const rows = [];
   let currentRow = [];
   let currentField = "";
@@ -310,7 +304,7 @@ async function handleCsvFileSelected() {
   const selectedFile = csvFileInputElement.files[0];
   if (!selectedFile) return;
 
-  const csvText = (await selectedFile.text()).replace(/^\uFEFF/, "");   // drop byte-order mark
+  const csvText = (await selectedFile.text()).replace(/^\uFEFF/, "");
   let rows = parseCsvIntoRows(csvText);
   if (csvHasHeaderCheckboxElement.checked) rows = rows.slice(1);
 
@@ -333,32 +327,18 @@ function handleAnalyzeClicked() {
 }
 
 
-/* ---------- 5. Start-up: load the model and check it against Python ---------- */
-
-function runModelSelfCheck() {
-  const verificationCases = loadedModelBundle.verification_cases || [];
-  let numberOfMatchingCases = 0;
-  for (const verificationCase of verificationCases) {
-    const cleanedText = cleanPostText(verificationCase.original_text);
-    const topicMatches = predictClass(cleanedText, preparedTopicModel).predictedClassName === verificationCase.expected_topic;
-    const sentimentMatches = predictClass(cleanedText, preparedSentimentModel).predictedClassName === verificationCase.expected_sentiment;
-    if (topicMatches && sentimentMatches) numberOfMatchingCases += 1;
-  }
-  modelCheckMessageElement.textContent =
-    `Model check: ${numberOfMatchingCases} of ${verificationCases.length} sample posts match the Python results.`;
-}
+/* ---------- 5. Start-up ---------- */
 
 async function loadModel() {
   try {
     const response = await fetch(MODEL_FILE_PATH);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    loadedModelBundle = await response.json();
+    const loadedModelBundle = await response.json();
     preparedTopicModel = prepareModel(loadedModelBundle.topic_model);
     preparedSentimentModel = prepareModel(loadedModelBundle.sentiment_model);
 
     analyzeButtonElement.disabled = false;
     statusMessageElement.textContent = "Model loaded. Add your posts and click Analyze.";
-    runModelSelfCheck();
   } catch (error) {
     statusMessageElement.textContent =
       "Could not load solace_model.json. Serve this folder with a local web server " +

@@ -64,7 +64,7 @@ button {
 }
 button:disabled { background: var(--neutral-color); cursor: not-allowed; }
 
-#status-message, #model-check-message {
+#status-message{
   color: var(--muted-text-color);
   font-size: 0.9rem;
 }
