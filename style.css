@@ -122,3 +122,12 @@ summary { cursor: pointer; color: var(--accent-color); margin-top: 8px; }
 .sentiment-tag.negative { background: var(--negative-color); }
 .sentiment-tag.neutral  { background: var(--neutral-color); }
 .sentiment-tag.positive { background: var(--positive-color); }
+
+select {
+  padding: 6px 8px;
+  font: inherit;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--card-background);
+  color: var(--text-color);
+}

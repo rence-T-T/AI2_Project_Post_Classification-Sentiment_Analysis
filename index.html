@@ -39,7 +39,13 @@
           The CSV has a header row
         </label>
       </div>
-
+      <div class="options">
+        <label for="model-select">Model</label>
+        <select id="model-select">
+          <option value="real_plus_synthetic">Trained on real + synthetic posts</option>
+          <option value="real_only">Trained on real posts only</option>
+        </select>
+      </div>
       <button id="analyze-button" disabled>Analyze</button>
       <p id="status-message">Loading model...</p>
     </section>

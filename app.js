@@ -25,8 +25,9 @@ const resultsSectionElement = document.getElementById("results-section");
 const overallSummaryElement = document.getElementById("overall-summary");
 const categoryListElement = document.getElementById("category-list");
 
-let preparedTopicModel = null;
-let preparedSentimentModel = null;
+const modelSelectElement = document.getElementById("model-select");
+let preparedModelSets = {};
+let lastListOfPosts = [];
 
 
 /* ---------- 1. Text cleaning and model math ---------- */
@@ -128,11 +129,11 @@ function extractTopKeywords(postsInCategory) {
     .map(([term]) => term);
 }
 
-function analyzePostBatch(listOfPosts) {
+function analyzePostBatch(listOfPosts, modelSet) {
   const analyzedPosts = listOfPosts.map((originalText) => {
     const cleanedText = cleanPostText(originalText);
-    const topicPrediction = predictClass(cleanedText, preparedTopicModel);
-    const sentimentPrediction = predictClass(cleanedText, preparedSentimentModel);
+    const topicPrediction = predictClass(cleanedText, modelSet.topicModel);
+    const sentimentPrediction = predictClass(cleanedText, modelSet.sentimentModel);
     return {
       originalText,
       predictedTopic: topicPrediction.predictedClassName,
@@ -314,6 +315,14 @@ async function handleCsvFileSelected() {
   statusMessageElement.textContent = `Loaded ${postsFromFile.length} posts from ${selectedFile.name}.`;
 }
 
+function runAnalysis() {
+  if (lastListOfPosts.length === 0) return;
+  const selectedModelSet = preparedModelSets[modelSelectElement.value];
+  renderResults(analyzePostBatch(lastListOfPosts, selectedModelSet));
+  statusMessageElement.textContent =
+    `Analyzed ${lastListOfPosts.length} posts with: ${modelSelectElement.selectedOptions[0].textContent}.`;
+}
+
 function handleAnalyzeClicked() {
   const splitMode = document.querySelector('input[name="split-mode"]:checked').value;
   const listOfPosts = splitIntoPosts(postInputElement.value, splitMode);
@@ -322,8 +331,8 @@ function handleAnalyzeClicked() {
     statusMessageElement.textContent = "Please add at least one post.";
     return;
   }
-  renderResults(analyzePostBatch(listOfPosts));
-  statusMessageElement.textContent = `Analyzed ${listOfPosts.length} posts.`;
+  lastListOfPosts = listOfPosts;
+  runAnalysis();
 }
 
 
@@ -334,8 +343,12 @@ async function loadModel() {
     const response = await fetch(MODEL_FILE_PATH);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const loadedModelBundle = await response.json();
-    preparedTopicModel = prepareModel(loadedModelBundle.topic_model);
-    preparedSentimentModel = prepareModel(loadedModelBundle.sentiment_model);
+    for (const [modelKey, exportedModelSet] of Object.entries(loadedModelBundle.models)) {
+      preparedModelSets[modelKey] = {
+        topicModel: prepareModel(exportedModelSet.topic_model),
+        sentimentModel: prepareModel(exportedModelSet.sentiment_model),
+      };
+    }
 
     analyzeButtonElement.disabled = false;
     statusMessageElement.textContent = "Model loaded. Add your posts and click Analyze.";
@@ -349,4 +362,5 @@ async function loadModel() {
 
 analyzeButtonElement.addEventListener("click", handleAnalyzeClicked);
 csvFileInputElement.addEventListener("change", handleCsvFileSelected);
+modelSelectElement.addEventListener("change", runAnalysis);
 loadModel();

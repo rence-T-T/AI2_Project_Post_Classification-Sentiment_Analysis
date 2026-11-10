@@ -1,0 +1,281 @@
+text,topic,sentiment
+"Prof namin laging late tapos sa exam siya pa yung galit kapag may nagtatanong. Ano ba talaga, bakit kami ang may kasalanan lagi",faculty_admin,negative
+"Grabe yung registrar, 3 beses na ako pinabalik para sa isang form. Sayang pamasahe at oras, walang maayos na sistema.",faculty_admin,negative
+"Our professor reads slides word for word for 3 hours and then gives a quiz on things he never explained. What are we even paying for?",faculty_admin,negative
+"Hindi nagrereply ang dean's office sa email namin kahit dalawang linggo na. Ganito ba talaga kapag student concern lang?",faculty_admin,negative
+"Sino ba nag-approve ng schedule na 7am to 8pm may isang subject lang sa gitna? Walang puso ang sched maker, promise.",faculty_admin,negative
+"Our instructor publicly humiliated a classmate for a wrong answer. Zero professionalism. Report ka lang ng report pero walang aksyon.",faculty_admin,negative
+"Late na naman ang announcement ng class suspension. 9am na, nasa jeep na kami. Ang hirap umasa sa school na ito.",faculty_admin,negative
+"Yung grades ko hindi pa rin nailalabas at tapos na ang sem. Wala man lang update from the department. Nakakastress.",faculty_admin,negative
+"Mandatory na naman ang bayad para sa event na hindi naman namin hiniling. Student funds ba talaga ang pinaglalaruan nyo?",faculty_admin,negative
+"SDO keeps enforcing rules about hair and uniform but ignores real problems. Priorities po??",faculty_admin,negative
+"Grabe magturo si sir, parang wala siyang paki kung may natututunan kami. Puro 'basahin nyo na lang sa module.'",faculty_admin,negative
+"The student council posts a lot but never answers when we actually ask for help. Parang pang-display lang.",faculty_admin,negative
+"Nagbago na naman ang syllabus sa kalagitnaan ng sem tapos kami pa ang pinapahirapan. Sino ba nagplano nito?",faculty_admin,negative
+"Professor gave us 5 activities due in one night and then marked us late for submitting at 11:59. Unfair talaga.",faculty_admin,negative
+"Ang tagal mag process ng scholarship papers sa office. Tatlong buwan na, wala pa ring sagot kung approved ba o hindi.",faculty_admin,negative
+"Teacher keeps changing the grading criteria without telling us. Nobody knows how we are graded, super unclear.",faculty_admin,negative
+"Pinagalitan kami ng prof dahil nagtanong kami ng clarification. Tapos sasabihin 'ask me anything' hahaha ok.",faculty_admin,negative
+"Required pa rin ang onsite exam kahit hindi nakapasok ang karamihan dahil sa baha. Sana naman may consideration po.",faculty_admin,negative
+"Walang consistent policy sa attendance, depende sa prof. Yung isa pwede late, yung isa absent agad. Magulo.",faculty_admin,negative
+"The department head dismissed our complaint as 'just feedback'. Then asks why students don't trust the system.",faculty_admin,negative
+"Sobrang tagal ng response ng guidance office, tapos pag nakapag-usap na, generic lang ang sagot. Disappointed.",faculty_admin,negative
+"Nag-email ako sa admin 4 times for my TOR request. Nothing. Walang sense yung online system nila.",faculty_admin,negative
+"Instructor cancelled class without notice again, pero nag-deduct ng attendance sa amin? Sino pa po ang may kasalanan dito 😒",faculty_admin,negative
+"Uso na naman ang 'pakitingnan na lang sa advisory' pero wala namang advisory sa page. Communication fail ulit.",faculty_admin,negative
+"Yung proctor namin sa exam sumigaw sa harap ng buong klase dahil lang sa pagbagsak ng lapis ko. Hiyang-hiya ako.",faculty_admin,negative
+"Everything is online but the school still asks us to submit printed copies. Ang sarap magreklamo pero wala ring nakikinig.",faculty_admin,negative
+"Hindi patas ang pagbibigay ng grades dito, depende sa kung sino ang paborito ng prof. Favoritism talaga.",faculty_admin,negative
+"Ang daming bayarin sa enrollment na hindi maipaliwanag ng cashier. Everyone just shrugs and says 'ganyan talaga'.",faculty_admin,negative
+"Yung org clearance process nila ay parang maze. Apat na signature, apat na magkakaibang opisina, lahat sarado pag lunch.",faculty_admin,negative
+"Professor told us 'study on your own' then gave a quiz about topics never taught. Gusto ko na lang mag-drop.",faculty_admin,negative
+"Ma'am explains things step by step and always repeats when we get lost. Grabe ang patience, thank you po!",faculty_admin,positive
+"Sir always replies to our messages kahit gabi na. Ganito dapat ang professor, approachable at fair.",faculty_admin,positive
+"Napakabilis ng registrar ngayong sem, 10 minutes lang tapos na ang request ko. Salamat po sa staff!",faculty_admin,positive
+"The dean listened to our concerns and actually fixed the schedule conflict within a week. Appreciate it a lot.",faculty_admin,positive
+"My professor gave us the grading rubric on day one and followed it. Fair, clear, and very organized.",faculty_admin,positive
+"Ang bait ng guidance counselor namin, tinulungan niya ako sa problema ko sa sched. Salamat po talaga.",faculty_admin,positive
+"Thank you to our instructor for extending the deadline when half the class had no internet. Very considerate.",faculty_admin,positive
+"Sobrang galing magturo ni sir, kahit mahirap ang subject, naintindihan ko dahil sa mga halimbawa niya.",faculty_admin,positive
+"The scholarship office processed my papers in two days and even reminded me of the next requirement. Great service!",faculty_admin,positive
+"Early announcement ng suspension ngayon, 5am pa lang meron na. Thank you admin, nakatipid kami sa pamasahe.",faculty_admin,positive
+"Our adviser stayed after class to help us revise our thesis outline. Words can't say how grateful we are.",faculty_admin,positive
+"Prof ko binigyan kami ng review session kahit hindi required. Ang laking tulong sa exam.",faculty_admin,positive
+"The student council actually followed up on our request for extra printers. Finally some action, thank you!",faculty_admin,positive
+"Mabilis sumagot ang SDO sa email at malinaw ang sagot nila. Ang saya na maayos ang proseso.",faculty_admin,positive
+"Prof was strict but fair, and I learned more in his class than in any other this year. Highly recommended.",faculty_admin,positive
+"Ma'am always asks how we are doing before starting the lesson. Rare to find a teacher who cares like that.",faculty_admin,positive
+"Salamat sa dean namin, nakinig siya sa feedback ng mga estudyante at binago ang schedule para hindi kami mahirapan.",faculty_admin,positive
+"I appreciate that our professors post modules early so we can plan ahead. Super helpful for working students.",faculty_admin,positive
+"Nagpa-consultation si sir tungkol sa grades bago ilabas ang final. Transparent at professional.",faculty_admin,positive
+"Best instructor I've had so far, makes even boring topics fun. Sana lahat ng prof ganito.",faculty_admin,positive
+"Reminder: online classes po tayo bukas dahil sa bagyo. Check your class channels for updates from your professors.",faculty_admin,neutral
+"Ask lang po, kailangan pa ba ng clearance bago mag-enroll sa next sem? Wala pa ako nakikitang announcement.",faculty_admin,neutral
+"Advisory: Midterm exams are moved to next week. Please refer to your department postings for the new schedule.",faculty_admin,neutral
+"May alam ba kayo kung kailan open ang scholarship application? Hindi ko makita sa website.",faculty_admin,neutral
+"Office hours of the registrar this week are 9am to 4pm only. Bring a valid ID when requesting documents.",faculty_admin,neutral
+"Tanong lang, required pa ba ang uniform sa online days? Walang malinaw na sagot ang prof namin.",faculty_admin,neutral
+"Notice to all students: the deadline for dropping subjects is on Friday. Visit your college office for the form.",faculty_admin,neutral
+"Sino po ang pwedeng lapitan para sa grade appeal? Dean ba o department head?",faculty_admin,neutral
+"Reminder from the SDO: Org activity permits must be filed at least one week before the event.",faculty_admin,neutral
+"Kailan po ang release ng grades for finals? May nakaka-alam ba?",faculty_admin,neutral
+"Ang init sa room namin, walang aircon tapos 40 kami sa loob. Paano kami makakapag-focus sa exam?",facilities_services,negative
+"Walang sabon sa CR ng second floor ng ilang linggo na. Basic hygiene lang po.",facilities_services,negative
+"The wifi disconnects every five minutes during online quizzes. Tapos kami ang sinisisi pag di nakapasa ng on time.",facilities_services,negative
+"Sobrang mahal ng rice meal sa canteen pero kakarampot ang ulam. Php 90 para sa isang pirasong chicken at kanin lang?",facilities_services,negative
+"Laging sira ang elevator sa gusali namin, kailangan pang umakyat ng hagdan ng anim na palapag habang may bitbit na mabigat na gamit.",facilities_services,negative
+"Ang daming surot sa upuan sa library, nangangati ako buong gabi pagkatapos mag-aral doon.",facilities_services,negative
+"Parking is a nightmare, we circle for 40 minutes and still no slot. Guards just wave us off.",facilities_services,negative
+"Yung water fountain may lumot at amoy kalawang. Delikado talagang uminom diyan.",facilities_services,negative
+"The canteen food gave half my friends stomach aches last week. Hygiene is clearly not a priority.",facilities_services,negative
+"Sira ang projector sa room 304 pero ilang linggo na wala pa ring ayos. Nagsusulat na lang kami sa board.",facilities_services,negative
+"Walang saksakan sa library, tapos bawal pa mag-charge sa labas ng room. Ano gagawin namin, magpatay ng phone?",facilities_services,negative
+"Ang baho ng CR sa ground floor, hindi na yata nililinis. Sobrang nakakadiri.",facilities_services,negative
+"Ang ingay ng construction sa tabi ng library kaya imposible mag-aral. Tapos sasabihin nila quiet zone.",facilities_services,negative
+"The bookstore is always out of stock of the required books, then sells them at triple price outside. Ganda ng system.",facilities_services,negative
+"Overpriced na nga ang pagkain, madalas pa kulang sa sukli ang cashier ng canteen. Nakakapagod.",facilities_services,negative
+"Mainit sa gym tapos walang electric fan. PE class namin, muntik na may himatayin kahapon.",facilities_services,negative
+"The security guards check bags aggressively and rudely. Wala namang respeto sa estudyante.",facilities_services,negative
+"Walang upuan sa hallway at bawal umupo sa sahig. Saan kami tatambay between classes?",facilities_services,negative
+"Lagi na lang puno ang lockers at sira pa yung iba. Ninakawan na ang isang kaklase namin.",facilities_services,negative
+"The aircon is set to freezing cold in the lab but the lecture rooms are like saunas. Make it make sense lol.",facilities_services,negative
+"Naka-block yung hagdan tuwing may event, hindi kami makadaan papunta sa room. Delikado na rin.",facilities_services,negative
+"Madilim ang hallway sa gabi at walang ilaw sa parking. Hindi safe para sa mga night class.",facilities_services,negative
+"Hindi na talaga gumagana yung mga printer sa library, pila pa rin kami sa labas para magpa-print.",facilities_services,negative
+"Yung mga upuan sa lecture hall, sira at maliit. Hindi komportable umupo ng tatlong oras.",facilities_services,negative
+"The cafeteria runs out of food by 11am, then we are left with nothing. Not even bread.",facilities_services,negative
+"Ang bagal ng elevator tuwing rush hour, minsan 20 minutes ang pila. Late tuloy kami sa klase.",facilities_services,negative
+"Walang malinis na ladies' room sa building namin, laging may tubig sa sahig at walang tissue. Kadiri.",facilities_services,negative
+"Sirang-sira ang mga electric fan sa room namin, parang hangin lang ng aso ang lumalabas.",facilities_services,negative
+"Library staff keep shushing us but they themselves talk loudly at the counter. Double standard much 🙄",facilities_services,negative
+"Pagod na kaming magreklamo sa leak sa ceiling. Every time it rains, nababasa ang notes namin.",facilities_services,negative
+"The new study lounge is so comfy and quiet, finally a place to review between classes. Thank you!",facilities_services,positive
+"Ang sarap ng bagong menu sa canteen, malinis at mura pa. Sana tuloy-tuloy na ito.",facilities_services,positive
+"Library has free laptop loans and the staff is really helpful. I got my research done way faster.",facilities_services,positive
+"Napakalinis ng CR sa bagong building, may sabon at tissue pa. Appreciate the maintenance team.",facilities_services,positive
+"The aircon in our room is perfect now. Thank you for fixing it so quickly, super productive na ulit.",facilities_services,positive
+"Mabilis na ang wifi sa campus ngayon, kahit video call ay hindi na nagla-lag. Sobrang laking tulong.",facilities_services,positive
+"Love the new charging stations in the hallway, hindi na ako nauubusan ng battery.",facilities_services,positive
+"Ang ganda ng garden sa may quadrangle, ang sarap tumambay habang naghihintay ng next class.",facilities_services,positive
+"The science lab is well equipped and every student gets to use the apparatus. Great facility.",facilities_services,positive
+"Napakabait ng mga guard ngayon, sila pa ang nag-guide sa amin papunta sa tamang building.",facilities_services,positive
+"The canteen now accepts GCash and the queue is so much shorter. Thank you for listening to us!",facilities_services,positive
+"Malinis at maayos ang gym namin, may electric fans na at bagong sahig. Ang saya mag-PE ngayon.",facilities_services,positive
+"Ang bagong elevator ay mabilis at hindi na nasisira. Ang laking ginhawa lalo na sa mga night class.",facilities_services,positive
+"Library hours were extended during exam week. Such a huge help for students who commute far.",facilities_services,positive
+"The cafeteria food is actually good and affordable. Student-friendly prices at malaki pa ang serving.",facilities_services,positive
+"Mas maliwanag na ngayon ang hallway sa gabi, mas safe na kami sa night class. Thank you po.",facilities_services,positive
+"Nakakatuwa na may bagong lockers kaming magagamit, maayos at may susi pa. Salamat sa admin.",facilities_services,positive
+"Clean restrooms, working aircon and fast wifi. I honestly can't complain about the facilities this year.",facilities_services,positive
+"Mabilis ang printing sa library at mura lang. Hindi na kami nahihirapan magpa-print ng requirements.",facilities_services,positive
+"The campus feels so safe with the new CCTV and friendly guards. Parents will love it too.",facilities_services,positive
+"Saan po yung bagong printing area? Hindi ko makita sa building namin.",facilities_services,neutral
+"Open ang library hanggang 7pm ngayong week, Monday to Saturday.",facilities_services,neutral
+"Anong oras bukas ang canteen tuwing Sabado? Balak ko mag-lunch doon bago ang makeup class.",facilities_services,neutral
+"Reminder: the elevator in Building G is under maintenance until Friday. Please use the stairs.",facilities_services,neutral
+"May nakakaalam ba kung may tubig na sa water fountain sa 3rd floor? Wala ako dalang tumbler.",facilities_services,neutral
+"The computer lab will be closed for cleaning on Thursday morning. Classes will use Room 210 instead.",facilities_services,neutral
+"May bayad ba ang locker rental o libre lang sa lahat ng students?",facilities_services,neutral
+"Pwede ba mag-charge ng laptop sa library? May outlet ba sa mga table?",facilities_services,neutral
+"Where can I find a quiet place to study near the campus? Library is full every afternoon.",facilities_services,neutral
+"Saan po pwedeng magpa-photocopy sa loob ng school? Kailangan ko lang ng ilang pages.",facilities_services,neutral
+"Honestly one of the best decisions I made was enrolling here. The community is friendly and the teachers really care.",reviews_questions,positive
+"Mahal ko ang school na ito, andami kong natutunan at ang bait ng mga kaibigan ko dito. Worth it.",reviews_questions,positive
+"As a faculty member here, I enjoy teaching bright students and the support from the department is real. Happy to be part of this school.",reviews_questions,positive
+"Maganda ang environment, magaling ang mga prof at hindi sobrang toxic ng culture. I recommend it to anyone.",reviews_questions,positive
+"Four years in and I have zero regrets. I grew a lot academically and personally.",reviews_questions,positive
+"The tuition is reasonable compared to other private schools and the installment plan helps a lot.",reviews_questions,positive
+"Sobrang saya ng buhay estudyante dito, laging may events at active ang mga orgs. Hindi ka mabo-bore.",reviews_questions,positive
+"I transferred here last year and it was the best move. Mas maayos ang sistema at mas approachable ang mga prof.",reviews_questions,positive
+"Magandang school kung gusto mo ng strong foundation sa course mo. Nagpapasalamat ako sa lahat ng natutunan ko.",reviews_questions,positive
+"Yung mga professors dito, may real-world experience at nakakapagbahagi talaga ng practical knowledge. Sobrang valuable.",reviews_questions,positive
+"As an alumna, I can say the school prepared me well for my board exam and my first job. Thank you, alma mater!",reviews_questions,positive
+"Safe ang campus, mababait ang mga tao, at maganda ang facilities. Solid choice for incoming freshmen.",reviews_questions,positive
+"Don't believe everyone who says this school is bad. My experience has been great so far, especially with the faculty.",reviews_questions,positive
+"I love how close-knit the student community is. Everyone helps each other during exams and projects.",reviews_questions,positive
+"Okay talaga dito kung naghahanap ka ng balanced na college life. May academics, may fun, may support.",reviews_questions,positive
+"Working here as an instructor has been rewarding. Colleagues are collaborative and students are respectful.",reviews_questions,positive
+"Grabe ang naging pagbabago ko sa school na ito, from shy freshman to student leader. Thank you po sa lahat ng nag-guide sa akin.",reviews_questions,positive
+"Good school overall with good values. I would send my younger sibling here without hesitation.",reviews_questions,positive
+"Nakakuha ako ng scholarship at nasuportahan ako ng school hanggang makatapos. Forever grateful.",reviews_questions,positive
+"Maganda ang training namin sa internship program ng school, may partner companies talaga at maraming opportunity.",reviews_questions,positive
+"Para sa akin, worth it ang tuition dahil sa quality ng teaching at facilities. Hindi nasayang ang binayad namin.",reviews_questions,positive
+"Super friendly ng mga upperclassmen at professors, hindi ka mawawala dito kahit freshman ka pa lang.",reviews_questions,positive
+"The campus culture is warm and welcoming. I felt at home from my very first day.",reviews_questions,positive
+"Highly recommend this school for working students, flexible ang schedule at supportive ang mga prof.",reviews_questions,positive
+"Dito ko nahanap ang passion ko at mga lifelong friends. Pinakamagandang chapter ng buhay ko.",reviews_questions,positive
+"I enjoy my classes, the professors are knowledgeable, and the library is a great place to study. Solid experience.",reviews_questions,positive
+"Maganda ang reputation ng school sa industry, madaling makahanap ng trabaho pagka-graduate.",reviews_questions,positive
+"Honest review: better than I expected. Strict in academics pero fair, and you really learn.",reviews_questions,positive
+"Maraming opportunities dito para sa mga student leaders. Ang dami kong natutunan sa mga orgs at events.",reviews_questions,positive
+"The best part of studying here is the people. Every professor I met wanted us to succeed.",reviews_questions,positive
+"Do not enroll here unless you enjoy being ignored. Every office passes you around like a hot potato.",reviews_questions,negative
+"Sayang ang tuition. Ang dami nilang pinapabayad pero ang daming sira sa campus at walang pakialam ang admin.",reviews_questions,negative
+"This school is trash when it comes to student support. Nobody replies, nobody cares, nobody fixes anything 🙄",reviews_questions,negative
+"Sobrang toxic ng environment dito, puro tsismis at paborito. Hindi ko inirerekomenda sa kahit sino.",reviews_questions,negative
+"Wala akong natutunan sa dalawang taon ko dito. Puro requirements, walang tunay na turo.",reviews_questions,negative
+"Absolutely ridiculous how this place treats students. Pay first, complain later, and still get ignored 🤡",reviews_questions,negative
+"Napakabagal ng sistema at puro delay. Ang laki ng tuition pero parang public school sa serbisyo.",reviews_questions,negative
+"I regret enrolling here. The promises on the brochure and the actual experience are two different worlds.",reviews_questions,negative
+"Pinapahirapan lang kami ng school na ito. Puro rules, walang kwenta ang support.",reviews_questions,negative
+"Honestly the worst semester of my life. Disorganized, unfair, and nobody takes responsibility.",reviews_questions,negative
+"Ang daming pa-feeling sa school na ito, pero pagdating sa tulong sa students, nganga. Nakakadismaya.",reviews_questions,negative
+"Wow, another memo at 11pm that cancels everything we planned. Amazing management 👏👏 truly world class.",reviews_questions,negative
+"Pag may reklamo ka, ikaw pa ang lalabas na masama. Hindi healthy ang culture dito.",reviews_questions,negative
+"This school only cares about enrollment numbers, not student well-being. Very obvious.",reviews_questions,negative
+"Kung may choice ka lang, wag dito. Marami namang ibang school na mas maayos.",reviews_questions,negative
+"Mahina ang quality ng education dito, outdated ang lessons at walang practical training.",reviews_questions,negative
+"Ginagawa nilang negosyo ang edukasyon. Lahat may bayad, lahat may extra charge.",reviews_questions,negative
+"I feel like just a number here. Nobody knows my name and nobody listens to my problems.",reviews_questions,negative
+"Ang hirap mag-enjoy dito kapag lagi kang stressed sa ka-disorganize ng lahat. Pagod na ako.",reviews_questions,negative
+"Pathetic how they treat scholars. One bad grade and you're out, with zero support or guidance.",reviews_questions,negative
+"Nakakapagod ang school na ito. Walang respeto sa oras at pera ng mga estudyante.",reviews_questions,negative
+"Overrated school, honestly. Mataas ang tuition pero mababa ang quality. Disappointed.",reviews_questions,negative
+"Everyone says this is a good school but my experience was a nightmare. Bad advisers, bad schedules, bad everything.",reviews_questions,negative
+"Walang maayos na communication ang school. Lahat ng info, nalalaman namin sa group chat at hindi sa admin.",reviews_questions,negative
+"Nagsisisi ako na dito ako nag-enroll. Kung alam ko lang na ganito, nag-transfer na sana ako agad.",reviews_questions,negative
+"The school markets itself as student-centered but never acts like it. Total clowns 🤡",reviews_questions,negative
+"Ang gulo ng lahat dito, magulo ang schedule, magulo ang rules, magulo ang management. Grabe.",reviews_questions,negative
+"As a faculty member I can say the management here is unsupportive and chaotic. Many of us are thinking of leaving.",reviews_questions,negative
+"Magaling lang sa marketing ang school na ito, pero sa totoong serbisyo, bagsak.",reviews_questions,negative
+"Avoid this place if you value your sanity. Burnout is guaranteed and support is non-existent.",reviews_questions,negative
+"Hello po, okay po ba yung BS Accountancy sa school na ito? Balak ko po sanang mag-enroll next year.",reviews_questions,neutral
+"Any thoughts on the nursing program here? I'm still deciding between two schools.",reviews_questions,neutral
+"Magkano po ang tuition ng Education course? Hindi ko makita ang exact amount sa website.",reviews_questions,neutral
+"How is the campus life for freshmen? Looking for honest pros and cons.",reviews_questions,neutral
+"May scholarship ba para sa mga athletes? Balak ko mag-apply sa varsity.",reviews_questions,neutral
+"Gaano kalayo ang school sa MRT? Kailangan ko malaman kasi commuter ako.",reviews_questions,neutral
+"Is it hard to get into the engineering program? What are the requirements?",reviews_questions,neutral
+"Pwede ba ang transferee mid-year? Anong documents ang kailangan?",reviews_questions,neutral
+"Do you recommend this school for senior high? Looking for feedback from parents and students.",reviews_questions,neutral
+"Anong course ang pinakamaganda dito? Undecided pa ako sa pagitan ng IT at Business.",reviews_questions,neutral
+"Any dorms or boarding houses near the school? Taga-province kasi ako.",reviews_questions,neutral
+"May mga night classes ba sa school? Working student kasi ako.",reviews_questions,neutral
+"Is the school accredited? I want to make sure before I enroll my younger brother.",reviews_questions,neutral
+"How strict are the professors here? Asking as incoming freshman.",reviews_questions,neutral
+"Ano ang ine-expect sa first year? First time ko mag-college kaya medyo kinakabahan.",reviews_questions,neutral
+"Magkano ang average na monthly expenses ng student dito, kasama pamasahe at pagkain?",reviews_questions,neutral
+"Are there good student organizations here? I want to join something related to design.",reviews_questions,neutral
+"May available pa bang slot sa second semester? Hindi ko alam kung sino ang kokontakin.",reviews_questions,neutral
+"Does the school offer online or blended classes? Hindi ko kaya mag-commute araw-araw.",reviews_questions,neutral
+"What is the vibe of the students here, friendly ba or competitive? Just curious.",reviews_questions,neutral
+"Congratulations to our debate team for winning first place at the inter-university tournament! So proud of you all 🎉",events_achievements,positive
+"Our student council successfully held the leadership training with over 200 attendees. Great job, organizers!",events_achievements,positive
+"Huge congrats to our scholars who made it to the Dean's List this semester. Hard work pays off!",events_achievements,positive
+"Proud of our basketball team for fighting until the final buzzer. What a game! 🏀",events_achievements,positive
+"Congratulations to our graduates who passed the board exam! Isang malaking pagbati sa inyo 🎓",events_achievements,positive
+"Nakaka-proud ang performance ng dance troupe namin sa festival kahapon. Standing ovation talaga!",events_achievements,positive
+"Thank you to everyone who joined our community outreach. Together we collected 300 kilos of relief goods! 💙",events_achievements,positive
+"Our robotics club took home the grand prize at the regional competition. Bravo, innovators!",events_achievements,positive
+"The Foundation Week opening was amazing, ang saya ng mga booth at performances. Salamat sa lahat ng nag-organize!",events_achievements,positive
+"Congratulations to our chess team for a clean sweep in the opening round. Keep it up, champions!",events_achievements,positive
+"Salamat sa lahat ng dumalo sa seminar kagabi! Sobrang successful ang event dahil sa inyo.",events_achievements,positive
+"Our student journalists won best campus paper in the national press conference. Hats off to the editorial team!",events_achievements,positive
+"What a night! The concert was unforgettable and the energy of the crowd was amazing. Thank you for coming 🎶",events_achievements,positive
+"Ang galing ng mga estudyante sa science fair, creative at innovative ang mga projects. Congratulations sa lahat ng participants!",events_achievements,positive
+"Proud moment as our alumna receives the Outstanding Young Professional award. Inspiring story for every student.",events_achievements,positive
+"We are thrilled to celebrate our volleyball team's championship title. Sobrang saya!",events_achievements,positive
+"Congratulations to our newly inducted student leaders! May you lead with heart and integrity.",events_achievements,positive
+"Maraming salamat sa lahat ng sumali sa bloodletting drive, umabot tayo sa 150 donors. Ang laking tulong nito.",events_achievements,positive
+"Our quiz bowl team made it to the national finals! Isang malaking congratulations sa inyo 👏",events_achievements,positive
+"Thank you, Rizalians, for making our fun run a success. Every step supported a good cause.",events_achievements,positive
+"Join us for the Career Talk Series this Friday at 2PM in the AVR. Open to all graduating students.",events_achievements,neutral
+"Registration for the Intramurals is now open. Sign up with your class representative until Wednesday.",events_achievements,neutral
+"Sa darating na Sabado ang Community Clean-up Drive. Magkita-kita tayo sa main gate ng 7AM.",events_achievements,neutral
+"The theater club will hold auditions on Monday and Tuesday, 3PM at the old auditorium.",events_achievements,neutral
+"Photos from the Foundation Day parade are now available on our page. Check the album for the full set.",events_achievements,neutral
+"Basketball game schedule for next week has been released. See the poster for the matchups.",events_achievements,neutral
+"Workshop on resume writing will be held on December 5, 1PM to 4PM, Room 402. Slots are limited.",events_achievements,neutral
+"Reminder: bring your IDs for the university-wide blood donation drive tomorrow, 8AM to 3PM.",events_achievements,neutral
+"Open mic night on Thursday at the quadrangle, 5PM onwards. Come and share your talent.",events_achievements,neutral
+"Here are the highlights from our webinar on cybersecurity awareness held last Saturday.",events_achievements,neutral
+"Mga kasama, may general assembly ang org natin sa Biyernes, 4PM sa Room 305. Dumalo po tayo.",events_achievements,neutral
+"The college fair will run from Nov 20 to 22 at the covered court, 9AM to 5PM.",events_achievements,neutral
+"Tickets for the school play are on sale at the student center until Friday. Php 100 each.",events_achievements,neutral
+"Photos of the leadership summit are up! Tag yourself and share with your classmates.",events_achievements,neutral
+"Sports fest registration closes this Friday. Forms are available at the athletics office.",events_achievements,neutral
+"Applications for the Second Semester are now open. Visit our admissions page for the list of requirements.",admissions_greetings,neutral
+"Magandang araw, Rizalians! Maligayang pagbabalik sa campus para sa bagong semestre.",admissions_greetings,neutral
+"Happy New Year, Rizalians! May the coming year bring you good health and success.",admissions_greetings,neutral
+"Enrollment for incoming Grade 7 is ongoing until March. Contact the admissions office for details.",admissions_greetings,neutral
+"Mag-enroll na for SY 2027-2028! Online application is now open, may installment plan available.",admissions_greetings,neutral
+"Merry Christmas, Rizalians! Enjoy the holidays with your loved ones and rest well.",admissions_greetings,neutral
+"Today we remember our heroes. Let us honor those who fought for our freedom on National Heroes Day.",admissions_greetings,neutral
+"Walk-in applications for senior high are accepted from Monday to Friday, 8AM to 4PM at the admissions office.",admissions_greetings,neutral
+"Happy Mothers' Day to all the amazing moms in our Rizalian family.",admissions_greetings,neutral
+"Good morning, Rizalians! Another week begins, take it one step at a time.",admissions_greetings,neutral
+"Happy Teachers' Day to all our faculty. Classes are suspended on Monday for the celebration.",admissions_greetings,neutral
+"Entrance exam schedules for incoming freshmen are posted. Bring a valid ID and two pencils.",admissions_greetings,neutral
+"Wishing everyone a peaceful Holy Week. Let us take time to reflect and pray.",admissions_greetings,neutral
+"Early bird discount for enrollment is available until December 15. Visit the cashier for details.",admissions_greetings,neutral
+"Maligayang pagdiriwang ng Araw ng Kalayaan, mga Pilipino! Mabuhay ang Pilipinas!",admissions_greetings,neutral
+"Welcome, new Rizalians! We're so excited to start this journey with you. Your story begins here 💙💛",admissions_greetings,positive
+"Happy birthday to our beloved university! Another year of excellence and service. Salamat po!",admissions_greetings,positive
+"Thank you, teachers, for the love and patience you pour into every lesson. You make a real difference.",admissions_greetings,positive
+"Happy graduation, Class of 2027! We are so proud of everything you have achieved 🎓",admissions_greetings,positive
+"Congratulations to all new enrollees, and welcome to the family! We can't wait to see you grow.",admissions_greetings,positive
+"Selling my used Calculus textbook, Php 400 lang. Pm me if interested, pwede meet-up sa school.",other,neutral
+"Lost and found: black umbrella left in Room 202. Message me if it's yours.",other,neutral
+"Looking for a roommate near campus, Php 3,500 per month, shared kitchen and wifi. Message me.",other,neutral
+"Anyone selling a second-hand drawing tablet? Budget is around Php 3,000.",other,neutral
+"Hello po, may nakaiwan ng ID sa jeep kanina sa may Shaw. Pakicheck po kung sa inyo.",other,neutral
+"Recommend a good laundromat near the dorm area? Thank you in advance.",other,neutral
+"WTS: Nursing uniform size small, used only twice, Php 800. Willing to meet around the school gate.",other,neutral
+"Anyone want to join a study group for Statistics? We meet on Sundays at the coffee shop nearby.",other,neutral
+"Looking for tutors in Chemistry, preferably online. Paid po. Message me your rates.",other,neutral
+"May nakakaalam ba ng magandang print shop malapit sa school? Mura pero maayos.",other,neutral
+"Free to a good home: two kittens, vaccinated. Pwede ma-pick up sa Mandaluyong.",other,neutral
+"Planning a weekend trip to Tagaytay, who's in? Share costs for the van rental.",other,neutral
+"Someone stole my wallet at the jeepney stop near the gate. Ingat po kayo sa mga kasabay nyo, ang daming manloloko.",other,negative
+"Ang daming scammer sa FB marketplace, nawalan ako ng Php 2,000 sa fake seller. Beware!",other,negative
+"Nakakainis yung jeepney driver na nanlaban pa nang magtanong ako ng sukli. Ang baba ng respeto sa pasahero.",other,negative
+"Can someone explain why the street outside always floods after five minutes of rain? Nakakapagod lumusong araw-araw.",other,negative
+"Sobrang traffic sa EDSA ngayon, 3 hours akong na-stuck. Hindi na talaga okay ang commute dito.",other,negative
+"I'm so tired of group chats with 200 unread messages. Mute na lang, wala ng saysay.",other,negative
+"Ang mahal na ng bilihin sa palengke, wala na tuloy kaming maipon sa allowance. Hirap ng buhay estudyante.",other,negative
+"Ang ingay ng neighbors namin hanggang 2am, hindi ako makatulog bago mag-exam. Nakakainis.",other,negative
+"Found a lovely little cafe near campus with cheap iced coffee and strong wifi. Highly recommended for study dates!",other,positive
+"Thank you to the kind stranger who returned my phone at the jeepney terminal. Faith in humanity restored 💙",other,positive
+"Ang sarap ng bagong ramen place sa Shaw, mura at malaki ang serving. Babalik talaga kami.",other,positive
+"Beautiful sunset today on the walk home. Little things like this make tiring days worth it.",other,positive
+"Salamat sa tindera sa harap ng school, laging may libreng sauce at nakangiti pa. Ang bait!",other,positive
